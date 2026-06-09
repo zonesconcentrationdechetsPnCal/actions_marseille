@@ -22,7 +22,7 @@
             margin: 0;
         }
         </style>
-        <title>Hotspots et actions associatives : déchets abandonnés à Marseille</title>
+        <title>Déchets abandonnés à Marseille : hotspots et actions associatives</title>
 		<h5 style="text-align:left; color:#1951a0; position: absolute; bottom: -14px; left: 10px; z-index: 999;">MerTerre, 2026 | Sources : MerTerre, Métropole Aix-Marseille-Provence, PnCal, contributeurs ReMed , Esri, IGN, OpenStreetMap</h5>
 		<img src="images/MerTerre_logo.png" alt="LogoMT" style="position: absolute; bottom: 30px; left: 0px; z-index: 999;">
 		<img src="images/ReMed_logo.svg" alt="LogoReMed" style="position: absolute; bottom: 41px; left: 110px; z-index: 999;">
@@ -146,7 +146,7 @@
             return this._div;
         };
         title.update = function () {
-            this._div.innerHTML = '<h2>Hotspots et actions associatives : déchets abandonnés à Marseille</h2>';
+            this._div.innerHTML = '<h2>Déchets abandonnés à Marseille : hotspots et actions associatives</h2>';
         };
         title.addTo(map);
         var abstract = new L.Control({'position':'topright'});
@@ -2192,7 +2192,7 @@ document.getElementById("menu").appendChild(titreFiltres);
             sel_Typedact.innerHTML = Typedact_options_str;
             div_Typedact.appendChild(sel_Typedact);
             var lab_Typedact = document.createElement('div');
-            lab_Typedact.innerHTML = '↑ Sélectionner une ou plusieurs actions (Ctrl + clic)';
+            lab_Typedact.innerHTML = '↑ Sélectionner une ou plusieurs actions (Ctrl + click)';
             lab_Typedact.className = 'filterlabel';
             div_Typedact.appendChild(lab_Typedact);
             var reset_Typedact = document.createElement('div');
@@ -2242,7 +2242,7 @@ document.getElementById("menu").appendChild(titreFiltres);
             sel_NomStruct.innerHTML = NomStruct_options_str;
             div_NomStruct.appendChild(sel_NomStruct);
             var lab_NomStruct = document.createElement('div');
-            lab_NomStruct.innerHTML = '↑ Sélectionner une ou plusieurs structures (Ctrl + clic)';
+            lab_NomStruct.innerHTML = '↑ Sélectionner une ou plusieurs structures (Ctrl + click)';
             lab_NomStruct.className = 'filterlabel';
             div_NomStruct.appendChild(lab_NomStruct);
             var reset_NomStruct = document.createElement('div');
