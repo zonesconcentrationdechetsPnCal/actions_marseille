@@ -1707,8 +1707,7 @@
                         <td class="visible-with-data" id="_Associati" colspan="2"><strong>Structure signalante</strong><br />' + (feature.properties['_Associati'] !== null ? autolinker.link(String(feature.properties['_Associati']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Commentaire</strong><br />' + (feature.properties['_Commentai'] !== null ? autolinker.link(String(feature.properties['_Commentai']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
+<td class="visible-with-data" id="_Commentai" colspan="2"><strong>Commentaire</strong><br />' + (feature.properties['_Commentai'] !== null ? autolinker.link(String(feature.properties['_Commentai']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\                    </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
